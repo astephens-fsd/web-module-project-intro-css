@@ -41,12 +41,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-
+/*universal selector*/
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-width: 100%;
+    max-width: 100%; 
     border: 1px solid grey;
 }
 
@@ -56,14 +56,15 @@ html{
 }
 
 body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
     font-family: 'Roboto Mono', monospace;
-    line-
-        
     }
 
 h1{
     font-family: 'Chelsea Market', cursive;
-
+    font-size: 5rem;
     }
 
 a{
@@ -76,6 +77,12 @@ span{
 }
 
 section{
+    padding: 4% 0;
+}
+
+/*header section styles*/
+
+nav{
     padding: 2% 0;
 }
 
@@ -102,6 +109,7 @@ nav a{
     background-color: #ffcd69;
     margin-right: 10%;
 }
+
 
 /*title section styles*/
 .titles{
@@ -130,4 +138,14 @@ nav a{
 .right div{
     position: absolute;
     top: 40%;
+}
+
+/*main text styles*/
+.main{
+    display: inline-block;
+    width: 90%;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #DDB9A3;
 }
