@@ -97,7 +97,7 @@ nav a{
 
 .orange{
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .blue{
@@ -107,7 +107,7 @@ nav a{
 
 .yellow{
     background-color: #ffcd69;
-    margin-right: 10%;
+    margin-right: 12%;
 }
 
 
@@ -142,10 +142,37 @@ nav a{
 
 /*main text styles*/
 .main{
-    display: inline-block;
-    width: 90%;
     color: #fff;
-    margin-left: 5%;
-    margin-right: 5%;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
     background-color: #DDB9A3;
+}
+
+/*container styles*/
+.container{
+    width: 70%;
+    align-content: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: auto;
+}
+
+.container img{
+    width: 50%;
+}
+
+/*footer styles*/
+
+footer img{
+    background-image: url(assets/footer_img.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: 5%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #F9E7DC;
 }
